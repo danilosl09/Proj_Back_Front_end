@@ -1,0 +1,26 @@
+{
+  "name": "proj_back_back_end",
+  "version": "1.0.0",
+  "description": "interação nodejs, react e python",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "type": "module",
+    "nodemon": "nodemon"
+  },
+  "author": "Danilo da Silva Leal",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jason": "^2.0.0",
+    "method-override": "^3.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.1",
+    "nodemon": "^3.0.3",
+    "path": "^0.12.7",
+    "require": "^2.4.20",
+    "routes": "^2.1.0",
+    "sequelize": "^6.37.1"
+  }
+}
